@@ -28,6 +28,10 @@ h2 {
     margin: 0;
 }
 
+p { 
+    color: #5B5B5B;
+}
+
 /* NAVIGATION */
 
 .nav-bar {
@@ -108,4 +112,40 @@ nav ul li a:hover {
     color: white;
 }
 
+
+/* FEATURES */
+
+.features {
+    padding: 2% 10% 5%;
+}
+
+.feature-img {
+    width: 100px;
+    margin: 20px auto 0;
+}
+
+.feature-text {
+    text-align: center;
+}
+
+.feature-content {
+    margin: 50px 0;
+}
+
+
+.feature-text h3 {
+    margin-top: 20px;
+}
+
+.container {
+    width: 60%;
+}
+
+
+.features .flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
