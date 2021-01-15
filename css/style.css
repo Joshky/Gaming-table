@@ -88,7 +88,7 @@ nav ul li a:hover {
 /* TITLE */
 
 .title-content {
-    background: linear-gradient(rgba(77, 62, 212, 0.822), rgba(0, 0, 0, 0.856) ), url(images/pc-setup3.webp);
+    background-image: linear-gradient(rgba(77, 62, 212, 0.822), rgba(0, 0, 0, 0.856) ), url(images/pc-setup3.webp);
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
