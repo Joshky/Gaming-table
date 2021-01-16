@@ -7,7 +7,7 @@
 }
 
 
-.title { 
+#title { 
     margin-top: 50px;
 }
 
@@ -121,7 +121,7 @@ nav ul li a:hover {
 
 /* FEATURES */
 
-.features {
+#features {
     padding: 2% 10% 5%;
 }
 
@@ -148,10 +148,40 @@ nav ul li a:hover {
 }
 
 
-.features .flex {
+#features .flex {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
+}
+
+/* TESTIMONIAL */
+
+#testimonial {
+    height: 550px;
+    background: black;
+    text-align: center;
+}
+
+#testimonial img {
+    width: 5%; 
+    border-radius: 100%;
+    border: 1.5px solid white;
+}
+
+#testimonial p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+#testimonial h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.carousel-inner {
+    padding: 10rem;
+    overflow: hidden;
 }
 
