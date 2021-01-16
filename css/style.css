@@ -11,6 +11,10 @@
     margin-top: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADINGS */
 
 h1,h2 { 
@@ -185,3 +189,44 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
+/* CTA */
+
+#cta {
+    padding: 3% 5%;
+    text-align: center;
+}
+
+#cta p {
+    font-size: 1.5rem;
+}
+
+.cta-pic {
+    width: 30%;
+    margin: 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid black;
+    padding: 40px;
+}
+
+#cta h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 5%;
+}
+
+/* FOOTER  */
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 3%;
+}
+
+footer p {
+    margin: 0;
+}
